@@ -1,0 +1,85 @@
+Project Objective
+
+The objective of this project was to develop an interactive Power BI dashboard for JCars Logistics Company by importing raw sales data into an Aiven PostgreSQL database, connecting the database to Power BI, cleaning and transforming the data, creating business measures using DAX, and developing interactive visualizations to support management decision-making.
+
+Importing Data into Aiven PostgreSQL
+
+The JCars Logistics dataset was imported into an Aiven PostgreSQL cloud database using SQL tools.
+
+The process involved:
+
+Creating a PostgreSQL service in Aiven.
+Creating a new database.
+Importing the cleaned JCars Logistics dataset into the database.
+Verifying that all records were successfully loaded.
+Confirming that all tables and columns matched the source dataset.
+Connecting Power BI to Aiven PostgreSQL
+
+Power BI was connected to the cloud database using the PostgreSQL connector.
+
+The connection process included:
+
+Selecting PostgreSQL Database as the data source.
+Entering the Aiven hostname, port number, database name, username, and password.
+Installing and configuring the SSL certificate provided by Aiven.
+Authenticating the connection.
+Loading the tables into Power BI.
+Data Cleaning and Preparation
+
+The following data preparation tasks were completed:
+
+Removed duplicate records.
+Corrected data types.
+Standardized date fields.
+Handled missing values.
+Removed invalid records.
+Created the Delivery Time field.
+Verified relationships and data consistency.
+Prepared the dataset for reporting.
+Measures and Calculations Created
+
+The dashboard includes several DAX measures, including:
+
+Total Cars Sold
+Total Revenue
+Total Cost
+Gross Profit
+Gross Profit Margin
+Average Delivery Time
+Average Customer Rating
+Number of Orders
+Returned Vehicles
+Revenue by Vehicle Year
+Revenue by Branch
+Revenue by Sales Representative
+Dashboard Visuals
+
+The dashboard contains:
+
+KPI Cards
+Revenue Trend Line Chart
+Revenue by Vehicle Year
+Revenue by Branch
+Revenue by Region
+Revenue by Car Make
+Revenue by Car Model
+Revenue by Vehicle Type
+Payment Method Analysis
+Payment Status Analysis
+Delivery Status Analysis
+Customer Analysis
+Top 10 Customers
+Returned Vehicles Analysis
+Interactive Slicers
+Key Insights
+Newer vehicle models generated the highest sales revenue.
+Revenue is concentrated among a few high-performing vehicle models.
+Some vehicle models recorded significantly higher return rates than others.
+Customer preferences vary across vehicle categories.
+The dashboard enables management to identify profitable products and operational improvement opportunities.
+Recommendations
+Increase inventory for high-performing vehicle models.
+Investigate the causes of frequent vehicle returns.
+Reduce inventory for slow-moving vehicles.
+Improve customer satisfaction using feedback and ratings.
+Continue monitoring sales performance using the Power BI dashboard to support data-driven decision-making
